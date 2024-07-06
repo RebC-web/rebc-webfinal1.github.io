@@ -1,0 +1,84 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&display=swap');
+
+*/
+nav ul {
+  list-style-type: none;
+  padding: 60px;
+display: flex;
+justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 5px;
+}
+
+nav a{
+text-decoration: none;
+background: #589;
+color: #fff;
+padding: 10px;
+display:block;
+border-radius: 20px;
+}
+
+nav ul li a:hover {
+  background: #99C6E0;
+  color: #000;
+}
+
+.icon{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.iconb {
+    position: absolute;
+    bottom: auto;
+    right: 0px;
+    
+}
+
+h1 p {
+  text-indent: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Rubik Mono One", monospace;
+}
+
+
+footer {
+  position: static;
+  border: 3px solid #589;
+}
+
+/* Media Queries:*/
+@media (max-width: 960px){
+  .sec-text {
+    columns: 2
+  }
+}
+
+@media (max-width: 600px){
+  .sec-text {
+    columns: 1;
+  }
+}
+
+/* Media Queries:*/
+@media (min-width: 1000px) {
+  main {
+    display: flex;
+  }
+
+main section {
+  flex: 1;
+  padding: 20px;
+}
+}
